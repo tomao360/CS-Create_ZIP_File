@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CreateZIPFile.UI/1.0.0": {
+        "dependencies": {
+          "CreateZIPFile.Entities": "1.0.0"
+        },
+        "runtime": {
+          "CreateZIPFile.UI.dll": {}
+        }
+      },
+      "CreateZIPFile.Entities/1.0.0": {
+        "dependencies": {
+          "CreateZIPFile.Model": "1.0.0"
+        },
+        "runtime": {
+          "CreateZIPFile.Entities.dll": {}
+        }
+      },
+      "CreateZIPFile.Model/1.0.0": {
+        "runtime": {
+          "CreateZIPFile.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CreateZIPFile.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CreateZIPFile.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CreateZIPFile.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
